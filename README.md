@@ -1,6 +1,6 @@
 SoftwareHotel
 
-SoftwareHotel es una plataforma para la gestión de reservas en hoteles, diseñada con una arquitectura moderna utilizando .NET 8 para el backend y React con TypeScript para el frontend. La aplicación permite a los administradores gestionar habitaciones y reservas, y a los clientes realizar reservas de manera sencilla.
+SoftwareHotel es una plataforma para la gestión de reservas en hoteles, desarrollada como una aplicación web en ASP.NET Core, donde el frontend y el backend están integrados en un solo proyecto. La aplicación permite a los administradores gestionar habitaciones y reservas, y a los clientes realizar reservas de manera sencilla.
 
 Características
 
@@ -12,13 +12,13 @@ Autenticación Segura: Implementación de JWT para la seguridad de usuarios.
 
 Integración con API Externas: Planeado para futuras conexiones con Booking y Airbnb.
 
-Interfaz Responsiva: Desarrollado con React y Tailwind CSS para una mejor experiencia de usuario.
+Interfaz Responsiva: Desarrollado con Razor Pages y Bootstrap para una mejor experiencia de usuario.
 
 Tecnologías Utilizadas
 
-Backend (C# .NET 8 - API RESTful)
+Aplicación Web (ASP.NET Core)
 
-.NET Core 8 para la API.
+ASP.NET Core 8 como framework principal.
 
 Entity Framework Core para la gestión de base de datos.
 
@@ -28,15 +28,7 @@ Swagger para la documentación de la API.
 
 Autenticación con JWT y ASP.NET Identity.
 
-Frontend (React + TypeScript)
-
-React con TypeScript para el desarrollo de la SPA (Single Page Application).
-
-React Router para la navegación.
-
-Axios para la comunicación con la API.
-
-Tailwind CSS para el diseño y estilos.
+Razor Pages y Bootstrap para el desarrollo del frontend.
 
 Base de Datos (PostgreSQL)
 
@@ -44,22 +36,20 @@ Migraciones con Entity Framework Core para facilitar la gestión de esquemas.
 
 Despliegue
 
-Backend: Contenerizado con Docker y desplegado en Azure o AWS.
-
-Frontend: Desplegado en Vercel, Netlify o Azure Static Web Apps.
+Aplicación Web: Contenerizada con Docker y desplegada en Azure o AWS.
 
 Arquitectura
 
 El sistema sigue una arquitectura en capas:
 
-+-------------------+        +--------------------+        +--------------------+
-|  React Frontend   | <----> | .NET API Backend  | <----> |  PostgreSQL DB     |
-|  (UI/UX)         |        | (Business Logic)  |        | (Data Storage)     |
-+-------------------+        +--------------------+        +--------------------+
++----------------------+        +--------------------+        +--------------------+
+| ASP.NET Core (UI)   | <----> | .NET API Backend  | <----> |  PostgreSQL DB     |
+| (Razor Pages)       |        | (Business Logic)  |        | (Data Storage)     |
++----------------------+        +--------------------+        +--------------------+
        ⬆                        ⬆
        |                        |
        | REST API Calls         | Entity Framework Core
-       | (Axios, Fetch)         |
+       |                        |
        ⬇                        ⬇
 +-------------------+        +--------------------+
 |    Auth (JWT)     |        |   Repositories    |
@@ -78,15 +68,6 @@ Verifica la instalación con:
 
 dotnet --version
 
-Instalar Node.js y npm
-
-Descarga desde: Node.js
-
-Verifica con:
-
-node -v
-npm -v
-
 Instalar PostgreSQL
 
 Descarga desde: PostgreSQL
@@ -95,17 +76,17 @@ Verifica con:
 
 psql --version
 
-Configuración del Backend
+Configuración del Proyecto
 
 Clonar el repositorio:
 
 git clone https://github.com/tu-usuario/SoftwareHotel.git
 cd SoftwareHotel
 
-Crear el proyecto API:
+Crear el proyecto en ASP.NET Core:
 
-dotnet new webapi -n BackendHotel
-cd BackendHotel
+dotnet new webapp -n SoftwareHotel
+cd SoftwareHotel
 
 Instalar dependencias:
 
@@ -123,30 +104,11 @@ Configurar la conexión a PostgreSQL en appsettings.json:
   "DefaultConnection": "Host=localhost;Database=SoftwareHotelDB;Username=postgres;Password=tu_password"
 }
 
-Aplicar migraciones y ejecutar la API:
+Aplicar migraciones y ejecutar la aplicación:
 
 dotnet ef migrations add InitialCreate
 dotnet ef database update
 dotnet run
-
-Configuración del Frontend
-
-Crear el proyecto React:
-
-npx create-react-app frontend --template typescript
-cd frontend
-
-Instalar dependencias:
-
-npm install axios react-router-dom tailwindcss
-
-Configurar Tailwind CSS:
-
-npx tailwindcss init -p
-
-Ejecutar el frontend:
-
-npm start
 
 Contribución
 
