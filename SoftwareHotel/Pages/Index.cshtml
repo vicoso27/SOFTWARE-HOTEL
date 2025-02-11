@@ -1,10 +1,21 @@
 ﻿@page
 @model IndexModel
 @{
-    ViewData["Title"] = "Home page";
+    ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<div class="container-fluid min-vh-100 d-flex flex-column justify-content-center align-items-center bg-light">
+    <header class="text-center mb-4">
+        <h1 class="display-4 text-primary fw-bold">Bienvenidos a Finca Hotel Campestre</h1>
+        <p class="lead text-secondary">Un refugio natural en Jericó, Antioquia</p>
+    </header>
+
+    <section class="w-75">
+        <img src="~/Assets/WhatsApp Image 2024-07-04 at 12.42.44 PM.jpeg" class="img-fluid rounded shadow" alt="Imagen de la finca hotel" asp-append-version="true" />
+    </section>
+
+    <section class="text-center mt-4">
+        <p class="fs-4 text-muted">Disfruta de la tranquilidad de la naturaleza, paisajes espectaculares y una hospitalidad inigualable.</p>
+        <a href="/Booking/Reserva" class="btn btn-lg btn-primary mt-3 shadow-sm">Reserva Ahora</a>
+    </section>
 </div>

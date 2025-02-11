@@ -1,0 +1,32 @@
+﻿@page
+@model SoftwareHotel.Pages.Abautus.AbautusModel
+@{
+    ViewData["Title"] = "Acerca de Nosotros";
+}
+
+<div class="container-fluid min-vh-100 d-flex flex-column justify-content-center align-items-center bg-light">
+    <header class="text-center mb-4">
+        <h1 class="display-4 text-primary fw-bold">Sobre Nosotros</h1>
+        <p class="lead text-secondary">Conoce más sobre Kolorina Hotel Campestre</p>
+    </header>
+
+    <section class="row w-75 align-items-center">
+        <div class="col-md-6 text-center">
+            <img src="/assets/hotel_exterior.jpg" alt="Kolorina Hotel Campestre" class="img-fluid rounded shadow">
+        </div>
+        <div class="col-md-6">
+            <p class="fs-5 text-muted">
+                En Kolorina Hotel Campestre, ofrecemos una experiencia única en Jericó, Antioquia.
+                Rodeado de naturaleza y tranquilidad, nuestro hotel es el lugar ideal para descansar y conectar con el entorno.
+            </p>
+            <p class="fs-5 text-muted">
+                Contamos con cómodas habitaciones, una gastronomía excepcional y actividades al aire libre para toda la familia.
+                ¡Ven y descubre la magia de Kolorina!
+            </p>
+        </div>
+    </section>
+
+    <section class="text-center mt-4">
+        <a href="/Booking/Reserva" class="btn btn-lg btn-primary mt-3 shadow-sm">Reserva Ahora</a>
+    </section>
+</div>

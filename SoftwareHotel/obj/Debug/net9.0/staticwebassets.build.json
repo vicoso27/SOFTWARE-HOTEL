@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "p7L53VMJHd8SJiGPwXVv5ANPd4r7sKunQP21lR4B4gQ=",
+  "Hash": "mHXCCgVRcvHUO696DIVXZKmfmK4hV4D6DemrVbBzAVQ=",
   "Source": "SoftwareHotel",
   "BasePath": "_content/SoftwareHotel",
   "Mode": "Default",
@@ -1403,6 +1403,27 @@
       "OriginalItemSpec": "C:\\Users\\VICTOR\\Desktop\\Desarrollo Web\\SoftwareHotel\\SoftwareHotel\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\SoftwareHotel.bundle.scp.css"
     },
     {
+      "Identity": "C:\\Users\\VICTOR\\Desktop\\Desarrollo Web\\SoftwareHotel\\SoftwareHotel\\wwwroot\\Assets\\WhatsApp Image 2024-07-04 at 12.42.44 PM.jpeg",
+      "SourceId": "SoftwareHotel",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\VICTOR\\Desktop\\Desarrollo Web\\SoftwareHotel\\SoftwareHotel\\wwwroot\\",
+      "BasePath": "_content/SoftwareHotel",
+      "RelativePath": "Assets/WhatsApp Image 2024-07-04 at 12.42.44 PM#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "pqwmbjkr0u",
+      "Integrity": "v5n1bs/Z2l71XawOoygBqQVBNzd0kvlZAfokp4VJP18=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Assets\\WhatsApp Image 2024-07-04 at 12.42.44 PM.jpeg"
+    },
+    {
       "Identity": "C:\\Users\\VICTOR\\Desktop\\Desarrollo Web\\SoftwareHotel\\SoftwareHotel\\wwwroot\\css\\site.css",
       "SourceId": "SoftwareHotel",
       "SourceType": "Discovered",
@@ -2727,6 +2748,88 @@
     }
   ],
   "Endpoints": [
+    {
+      "Route": "Assets/WhatsApp Image 2024-07-04 at 12.42.44 PM.jpeg",
+      "AssetFile": "C:\\Users\\VICTOR\\Desktop\\Desarrollo Web\\SoftwareHotel\\SoftwareHotel\\wwwroot\\Assets\\WhatsApp Image 2024-07-04 at 12.42.44 PM.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "46715"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"v5n1bs/Z2l71XawOoygBqQVBNzd0kvlZAfokp4VJP18=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 04 Jul 2024 17:43:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-v5n1bs/Z2l71XawOoygBqQVBNzd0kvlZAfokp4VJP18="
+        }
+      ]
+    },
+    {
+      "Route": "Assets/WhatsApp Image 2024-07-04 at 12.42.44 PM.pqwmbjkr0u.jpeg",
+      "AssetFile": "C:\\Users\\VICTOR\\Desktop\\Desarrollo Web\\SoftwareHotel\\SoftwareHotel\\wwwroot\\Assets\\WhatsApp Image 2024-07-04 at 12.42.44 PM.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "46715"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"v5n1bs/Z2l71XawOoygBqQVBNzd0kvlZAfokp4VJP18=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 04 Jul 2024 17:43:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "pqwmbjkr0u"
+        },
+        {
+          "Name": "label",
+          "Value": "Assets/WhatsApp Image 2024-07-04 at 12.42.44 PM.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-v5n1bs/Z2l71XawOoygBqQVBNzd0kvlZAfokp4VJP18="
+        }
+      ]
+    },
     {
       "Route": "css/site.b9sayid5wm.css",
       "AssetFile": "C:\\Users\\VICTOR\\Desktop\\Desarrollo Web\\SoftwareHotel\\SoftwareHotel\\obj\\Debug\\net9.0\\compressed\\9326fqjrpz-b9sayid5wm.gz",

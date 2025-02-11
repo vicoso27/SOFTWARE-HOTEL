@@ -1,0 +1,52 @@
+﻿@page
+@model SoftwareHotel.Pages.Gallery.GalleryModel
+
+
+
+@{
+    ViewData["Title"] = "Galería";
+}
+
+<div class="container py-5">
+    <header class="text-center mb-5">
+        <h1 class="display-5 text-primary fw-bold">Galería</h1>
+        <p class="lead text-muted">Explora la belleza de Kolorina Hotel Campestre y sus alrededores</p>
+    </header>
+
+    
+    <section class="mb-5">
+        <h2 class="text-center text-secondary mb-4">Nuestro Hotel</h2>
+        <div class="row g-4">
+            <div class="col-md-4">
+                <img src="~/Assets/hotel1.jpg" class="img-fluid rounded shadow" alt="Vista del hotel">
+            </div>
+            <div class="col-md-4">
+                <img src="~/Assets/hotel2.jpg" class="img-fluid rounded shadow" alt="Habitaciones del hotel">
+            </div>
+            <div class="col-md-4">
+                <img src="~/Assets/hotel3.jpg" class="img-fluid rounded shadow" alt="Piscina y áreas verdes">
+            </div>
+        </div>
+    </section>
+
+    
+    <section class="mb-5">
+        <h2 class="text-center text-secondary mb-4">Lugares de Interés Cercanos</h2>
+        <div class="row g-4">
+            <div class="col-md-4">
+                <img src="~/Assets/lugar1.jpg" class="img-fluid rounded shadow" alt="Montañas de Jericó">
+            </div>
+            <div class="col-md-4">
+                <img src="~/Assets/lugar2.jpg" class="img-fluid rounded shadow" alt="Cascadas naturales">
+            </div>
+            <div class="col-md-4">
+                <img src="~/Assets/lugar3.jpg" class="img-fluid rounded shadow" alt="Calles coloniales de Jericó">
+            </div>
+        </div>
+    </section>
+
+    <!-- Botón de regreso -->
+    <div class="text-center mt-4">
+        <a href="/Index" class="btn btn-lg btn-primary shadow-sm">Volver al Inicio</a>
+    </div>
+</div>

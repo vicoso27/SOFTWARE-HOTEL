@@ -11,8 +11,13 @@
     <Folder Include="Data\" />
     <Folder Include="Dtos\" />
     <Folder Include="Migrations\" />
+    <Folder Include="Pages\Booking\" />
     <Folder Include="Repositories\" />
     <Folder Include="Service\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\Assets\WhatsApp Image 2024-07-04 at 12.42.44 PM.jpeg" />
   </ItemGroup>
 
 </Project>

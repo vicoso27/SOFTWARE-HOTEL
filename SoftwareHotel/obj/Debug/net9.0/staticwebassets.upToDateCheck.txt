@@ -60,6 +60,7 @@ C:\Users\VICTOR\Desktop\Desarrollo Web\SoftwareHotel\SoftwareHotel\wwwroot\lib\b
 C:\Users\VICTOR\Desktop\Desarrollo Web\SoftwareHotel\SoftwareHotel\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css
 C:\Users\VICTOR\Desktop\Desarrollo Web\SoftwareHotel\SoftwareHotel\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css
 C:\Users\VICTOR\Desktop\Desarrollo Web\SoftwareHotel\SoftwareHotel\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css.map
+wwwroot\Assets\WhatsApp Image 2024-07-04 at 12.42.44 PM.jpeg
 wwwroot\css\site.css
 wwwroot\favicon.ico
 wwwroot\js\site.js

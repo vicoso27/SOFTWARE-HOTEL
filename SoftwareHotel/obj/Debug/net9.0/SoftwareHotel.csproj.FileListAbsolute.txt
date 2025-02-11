@@ -96,3 +96,4 @@ C:\Users\VICTOR\Desktop\Desarrollo Web\SoftwareHotel\SoftwareHotel\obj\Debug\net
 C:\Users\VICTOR\Desktop\Desarrollo Web\SoftwareHotel\SoftwareHotel\obj\Debug\net9.0\SoftwareHotel.pdb
 C:\Users\VICTOR\Desktop\Desarrollo Web\SoftwareHotel\SoftwareHotel\obj\Debug\net9.0\SoftwareHotel.genruntimeconfig.cache
 C:\Users\VICTOR\Desktop\Desarrollo Web\SoftwareHotel\SoftwareHotel\obj\Debug\net9.0\ref\SoftwareHotel.dll
+C:\Users\VICTOR\Desktop\Desarrollo Web\SoftwareHotel\SoftwareHotel\obj\Debug\net9.0\SoftwareHotel.sourcelink.json
