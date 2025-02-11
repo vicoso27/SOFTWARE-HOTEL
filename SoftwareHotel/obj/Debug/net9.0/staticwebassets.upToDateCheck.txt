@@ -60,6 +60,15 @@ C:\Users\VICTOR\Desktop\Desarrollo Web\SoftwareHotel\SoftwareHotel\wwwroot\lib\b
 C:\Users\VICTOR\Desktop\Desarrollo Web\SoftwareHotel\SoftwareHotel\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css
 C:\Users\VICTOR\Desktop\Desarrollo Web\SoftwareHotel\SoftwareHotel\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css
 C:\Users\VICTOR\Desktop\Desarrollo Web\SoftwareHotel\SoftwareHotel\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css.map
+wwwroot\Assets\Finca1.JPG
+wwwroot\Assets\Finca2.JPG
+wwwroot\Assets\Finca3.JPG
+wwwroot\Assets\Finca4.JPG
+wwwroot\Assets\Jerico1.jpg
+wwwroot\Assets\Jerico3.jpg
+wwwroot\Assets\Jerico4.jpg
+wwwroot\Assets\VIDEO-2024-07-02-16-14-12.mp4
+wwwroot\Assets\VideoFinca1.webm
 wwwroot\Assets\WhatsApp Image 2024-07-04 at 12.42.44 PM.jpeg
 wwwroot\css\site.css
 wwwroot\favicon.ico

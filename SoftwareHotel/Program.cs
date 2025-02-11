@@ -1,7 +1,14 @@
+using Microsoft.EntityFrameworkCore;
+using SoftwareHotel.Data;
+
 var builder = WebApplication.CreateBuilder(args);
+
 
 // Add services to the container.
 builder.Services.AddRazorPages();
+builder.Services.AddDbContext<KolorinaDbContext>(options =>
+    options.UseNpgsql(builder.Configuration.GetConnectionString("KolorinaDbConnection"))
+);
 
 var app = builder.Build();
 

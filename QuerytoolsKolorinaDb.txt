@@ -1,0 +1,80 @@
+﻿
+base de datos KolorinaDb
+
+CREATE TABLE roles (
+    id SERIAL PRIMARY KEY,
+    nombre VARCHAR(50) NOT NULL
+);
+
+CREATE TABLE usuarios (
+    id SERIAL PRIMARY KEY,
+    nombre VARCHAR(100) NOT NULL,
+    email VARCHAR(100) UNIQUE NOT NULL,
+    contraseña TEXT NOT NULL,
+    rol_id INT REFERENCES roles(id) ON DELETE SET NULL
+);
+
+CREATE TABLE habitaciones (
+    id SERIAL PRIMARY KEY,
+    numero VARCHAR(10) NOT NULL UNIQUE,
+    tipo VARCHAR(50) NOT NULL,
+    capacidad INT NOT NULL,
+    precio DECIMAL(10,2) NOT NULL,
+    disponible BOOLEAN DEFAULT TRUE
+);
+
+CREATE TABLE clientes (
+    id SERIAL PRIMARY KEY,
+    nombre VARCHAR(100) NOT NULL,
+    email VARCHAR(100) UNIQUE,
+    telefono VARCHAR(20),
+    documento_identidad VARCHAR(50) UNIQUE
+);
+
+CREATE TABLE reservas (
+    id SERIAL PRIMARY KEY,
+    cliente_id INT REFERENCES clientes(id) ON DELETE CASCADE,
+    habitacion_id INT REFERENCES habitaciones(id) ON DELETE CASCADE,
+    fecha_inicio DATE NOT NULL,
+    fecha_fin DATE NOT NULL,
+    estado VARCHAR(20) DEFAULT 'Pendiente'
+);
+-- Insertar roles
+INSERT INTO roles (nombre) VALUES 
+('Administrador'), 
+('Recepcionista'), 
+('Cliente'), 
+('Mantenimiento'), 
+('Gerente');
+
+-- Insertar usuarios
+INSERT INTO usuarios (nombre, email, contraseña, rol_id) VALUES 
+('Juan Pérez', 'juan@example.com', '1234', 1),
+('Ana Gómez', 'ana@example.com', '1234', 2),
+('Carlos López', 'carlos@example.com', '1234', 3),
+('Marta Ríos', 'marta@example.com', '1234', 4),
+('Luis Torres', 'luis@example.com', '1234', 5);
+
+-- Insertar habitaciones
+INSERT INTO habitaciones (numero, tipo, capacidad, precio, disponible) VALUES 
+('101', 'Doble', 2, 150000, TRUE),
+('102', 'Suite', 4, 300000, TRUE),
+('103', 'Individual', 1, 100000, FALSE),
+('104', 'Familiar', 6, 400000, TRUE),
+('105', 'Matrimonial', 2, 200000, FALSE);
+
+-- Insertar clientes
+INSERT INTO clientes (nombre, email, telefono, documento_identidad) VALUES 
+('Pedro Sánchez', 'pedro@example.com', '3001234567', 'CC12345678'),
+('Laura Medina', 'laura@example.com', '3019876543', 'CC87654321'),
+('Sofía Ramírez', 'sofia@example.com', '3021122334', 'CC11223344'),
+('Diego Fernández', 'diego@example.com', '3035566778', 'CC55667788'),
+('Camila Herrera', 'camila@example.com', '3049988776', 'CC99887766');
+
+-- Insertar reservas
+INSERT INTO reservas (cliente_id, habitacion_id, fecha_inicio, fecha_fin, estado) VALUES 
+(1, 1, '2025-03-10', '2025-03-15', 'Confirmada'),
+(2, 3, '2025-04-05', '2025-04-10', 'Pendiente'),
+(3, 2, '2025-05-01', '2025-05-07', 'Confirmada'),
+(4, 5, '2025-06-15', '2025-06-20', 'Cancelada'),
+(5, 4, '2025-07-10', '2025-07-14', 'Confirmada');

@@ -1,0 +1,69 @@
+﻿@page
+@model SoftwareHotel.Pages.Booking.BookingModel
+@{
+    ViewData["Title"] = "Reservas";
+}
+
+<!-- Estilos para mejorar el diseño -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+
+<div class="container py-5">
+    <header class="text-center mb-4">
+        <h1 class="display-5 text-primary fw-bold">Reserva tu habitación</h1>
+        <p class="lead text-muted">Selecciona la fecha y elige tu habitación en Kolorina Hotel Campestre</p>
+    </header>
+
+    <form method="post" action="/api/pago">
+        <div class="row g-4">
+            <!-- Selección de habitación -->
+            <div class="col-md-6">
+                <label for="habitacion" class="form-label">Selecciona una habitación:</label>
+                <select class="form-select" id="habitacion" name="habitacion" required>
+                    <option value="" disabled selected>Elige una habitación...</option>
+                    <option value="1">Habitación 1 - Vista al jardín</option>
+                    <option value="2">Habitación 2 - Deluxe</option>
+                    <option value="3">Habitación 3 - Familiar</option>
+                    <option value="4">Habitación 4 - Suite</option>
+                    <option value="5">Habitación 5 - Standard</option>
+                    <option value="6">Habitación 6 - Doble</option>
+                    <option value="7">Habitación 7 - Especial</option>
+                </select>
+            </div>
+
+            <!-- Calendario de fechas -->
+            <div class="col-md-6">
+                <label for="fecha" class="form-label">Selecciona tu fecha:</label>
+                <input type="text" id="fecha" name="fecha" class="form-control" placeholder="Elige una fecha" required>
+            </div>
+        </div>
+
+        <!-- Datos del huésped -->
+        <div class="row g-4 mt-3">
+            <div class="col-md-6">
+                <label for="nombre" class="form-label">Nombre:</label>
+                <input type="text" class="form-control" id="nombre" name="nombre" required>
+            </div>
+            <div class="col-md-6">
+                <label for="email" class="form-label">Correo Electrónico:</label>
+                <input type="email" class="form-control" id="email" name="email" required>
+            </div>
+        </div>
+
+        <!-- Botón de pago -->
+        <div class="text-center mt-4">
+            <button type="submit" class="btn btn-lg btn-success shadow-sm">Pagar y Reservar</button>
+        </div>
+    </form>
+</div>
+
+<!-- Script para el calendario -->
+<script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        flatpickr("#fecha", {
+            minDate: "today",
+            dateFormat: "Y-m-d",
+            mode: "range"
+        });
+    });
+</script>

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "mHXCCgVRcvHUO696DIVXZKmfmK4hV4D6DemrVbBzAVQ=",
+  "Hash": "WuV8x+DGuAkp0SN+MSkfgp5hhtFC6+2HqylcjnmFyDY=",
   "Source": "SoftwareHotel",
   "BasePath": "_content/SoftwareHotel",
   "Mode": "Default",
@@ -1403,6 +1403,195 @@
       "OriginalItemSpec": "C:\\Users\\VICTOR\\Desktop\\Desarrollo Web\\SoftwareHotel\\SoftwareHotel\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\SoftwareHotel.bundle.scp.css"
     },
     {
+      "Identity": "C:\\Users\\VICTOR\\Desktop\\Desarrollo Web\\SoftwareHotel\\SoftwareHotel\\wwwroot\\Assets\\Finca1.JPG",
+      "SourceId": "SoftwareHotel",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\VICTOR\\Desktop\\Desarrollo Web\\SoftwareHotel\\SoftwareHotel\\wwwroot\\",
+      "BasePath": "_content/SoftwareHotel",
+      "RelativePath": "Assets/Finca1#[.{fingerprint}]?.JPG",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ilg88fw55w",
+      "Integrity": "+hW//8izuPHNltr9plNBNoWPwrULlvfUJfdHGSWYC3Y=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Assets\\Finca1.JPG"
+    },
+    {
+      "Identity": "C:\\Users\\VICTOR\\Desktop\\Desarrollo Web\\SoftwareHotel\\SoftwareHotel\\wwwroot\\Assets\\Finca2.JPG",
+      "SourceId": "SoftwareHotel",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\VICTOR\\Desktop\\Desarrollo Web\\SoftwareHotel\\SoftwareHotel\\wwwroot\\",
+      "BasePath": "_content/SoftwareHotel",
+      "RelativePath": "Assets/Finca2#[.{fingerprint}]?.JPG",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "hjq3txaol0",
+      "Integrity": "41Xl54XtRyXDP1PXVjNlTjSAr+MY6A+95wxh4cikW1Y=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Assets\\Finca2.JPG"
+    },
+    {
+      "Identity": "C:\\Users\\VICTOR\\Desktop\\Desarrollo Web\\SoftwareHotel\\SoftwareHotel\\wwwroot\\Assets\\Finca3.JPG",
+      "SourceId": "SoftwareHotel",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\VICTOR\\Desktop\\Desarrollo Web\\SoftwareHotel\\SoftwareHotel\\wwwroot\\",
+      "BasePath": "_content/SoftwareHotel",
+      "RelativePath": "Assets/Finca3#[.{fingerprint}]?.JPG",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ayzjjkk12v",
+      "Integrity": "wn9z5Gl2sLZ8tjJdyua7WIvzbpg76fkGwZe/u1ShJTg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Assets\\Finca3.JPG"
+    },
+    {
+      "Identity": "C:\\Users\\VICTOR\\Desktop\\Desarrollo Web\\SoftwareHotel\\SoftwareHotel\\wwwroot\\Assets\\Finca4.JPG",
+      "SourceId": "SoftwareHotel",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\VICTOR\\Desktop\\Desarrollo Web\\SoftwareHotel\\SoftwareHotel\\wwwroot\\",
+      "BasePath": "_content/SoftwareHotel",
+      "RelativePath": "Assets/Finca4#[.{fingerprint}]?.JPG",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "rtx3vnwni5",
+      "Integrity": "/8iR7GPqqG1p13qfemIYEBxqsOGv1u/FNidOW/I8WME=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Assets\\Finca4.JPG"
+    },
+    {
+      "Identity": "C:\\Users\\VICTOR\\Desktop\\Desarrollo Web\\SoftwareHotel\\SoftwareHotel\\wwwroot\\Assets\\Jerico1.jpg",
+      "SourceId": "SoftwareHotel",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\VICTOR\\Desktop\\Desarrollo Web\\SoftwareHotel\\SoftwareHotel\\wwwroot\\",
+      "BasePath": "_content/SoftwareHotel",
+      "RelativePath": "Assets/Jerico1#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "7lve22akqw",
+      "Integrity": "lT7vlclwQx6b26NHr2jDoM23asAPPNfApowWHihzvv0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Assets\\Jerico1.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\VICTOR\\Desktop\\Desarrollo Web\\SoftwareHotel\\SoftwareHotel\\wwwroot\\Assets\\Jerico3.jpg",
+      "SourceId": "SoftwareHotel",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\VICTOR\\Desktop\\Desarrollo Web\\SoftwareHotel\\SoftwareHotel\\wwwroot\\",
+      "BasePath": "_content/SoftwareHotel",
+      "RelativePath": "Assets/Jerico3#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "lkx5qivvuf",
+      "Integrity": "yzQrEe/8eafCUQraHxSsyo8zFWrce9Gq4jA7E2Mt3k0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Assets\\Jerico3.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\VICTOR\\Desktop\\Desarrollo Web\\SoftwareHotel\\SoftwareHotel\\wwwroot\\Assets\\Jerico4.jpg",
+      "SourceId": "SoftwareHotel",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\VICTOR\\Desktop\\Desarrollo Web\\SoftwareHotel\\SoftwareHotel\\wwwroot\\",
+      "BasePath": "_content/SoftwareHotel",
+      "RelativePath": "Assets/Jerico4#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "o1x5d8hhtr",
+      "Integrity": "jNMhKeHAtwkiR+fpdf7FfUji54RqyWv7RUwa45++6PI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Assets\\Jerico4.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\VICTOR\\Desktop\\Desarrollo Web\\SoftwareHotel\\SoftwareHotel\\wwwroot\\Assets\\VIDEO-2024-07-02-16-14-12.mp4",
+      "SourceId": "SoftwareHotel",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\VICTOR\\Desktop\\Desarrollo Web\\SoftwareHotel\\SoftwareHotel\\wwwroot\\",
+      "BasePath": "_content/SoftwareHotel",
+      "RelativePath": "Assets/VIDEO-2024-07-02-16-14-12#[.{fingerprint}]?.mp4",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "jpif8ivqmk",
+      "Integrity": "ifP8ylDgUCr8uP3Zg1DeUPMm7dv9aqxFgmhQGyRwBiQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Assets\\VIDEO-2024-07-02-16-14-12.mp4"
+    },
+    {
+      "Identity": "C:\\Users\\VICTOR\\Desktop\\Desarrollo Web\\SoftwareHotel\\SoftwareHotel\\wwwroot\\Assets\\VideoFinca1.webm",
+      "SourceId": "SoftwareHotel",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\VICTOR\\Desktop\\Desarrollo Web\\SoftwareHotel\\SoftwareHotel\\wwwroot\\",
+      "BasePath": "_content/SoftwareHotel",
+      "RelativePath": "Assets/VideoFinca1#[.{fingerprint}]?.webm",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ecu3nkqldp",
+      "Integrity": "XuNIGqGwtqMsb4YF3U0ZMgmzU67OEhh6CcZUKIynJ+Q=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Assets\\VideoFinca1.webm"
+    },
+    {
       "Identity": "C:\\Users\\VICTOR\\Desktop\\Desarrollo Web\\SoftwareHotel\\SoftwareHotel\\wwwroot\\Assets\\WhatsApp Image 2024-07-04 at 12.42.44 PM.jpeg",
       "SourceId": "SoftwareHotel",
       "SourceType": "Discovered",
@@ -2748,6 +2937,744 @@
     }
   ],
   "Endpoints": [
+    {
+      "Route": "Assets/Finca1.ilg88fw55w.JPG",
+      "AssetFile": "C:\\Users\\VICTOR\\Desktop\\Desarrollo Web\\SoftwareHotel\\SoftwareHotel\\wwwroot\\Assets\\Finca1.JPG",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "21561344"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+hW//8izuPHNltr9plNBNoWPwrULlvfUJfdHGSWYC3Y=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 11 Feb 2025 13:52:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ilg88fw55w"
+        },
+        {
+          "Name": "label",
+          "Value": "Assets/Finca1.JPG"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-+hW//8izuPHNltr9plNBNoWPwrULlvfUJfdHGSWYC3Y="
+        }
+      ]
+    },
+    {
+      "Route": "Assets/Finca1.JPG",
+      "AssetFile": "C:\\Users\\VICTOR\\Desktop\\Desarrollo Web\\SoftwareHotel\\SoftwareHotel\\wwwroot\\Assets\\Finca1.JPG",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "21561344"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+hW//8izuPHNltr9plNBNoWPwrULlvfUJfdHGSWYC3Y=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 11 Feb 2025 13:52:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-+hW//8izuPHNltr9plNBNoWPwrULlvfUJfdHGSWYC3Y="
+        }
+      ]
+    },
+    {
+      "Route": "Assets/Finca2.hjq3txaol0.JPG",
+      "AssetFile": "C:\\Users\\VICTOR\\Desktop\\Desarrollo Web\\SoftwareHotel\\SoftwareHotel\\wwwroot\\Assets\\Finca2.JPG",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "20774912"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"41Xl54XtRyXDP1PXVjNlTjSAr+MY6A+95wxh4cikW1Y=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 11 Feb 2025 13:52:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "hjq3txaol0"
+        },
+        {
+          "Name": "label",
+          "Value": "Assets/Finca2.JPG"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-41Xl54XtRyXDP1PXVjNlTjSAr+MY6A+95wxh4cikW1Y="
+        }
+      ]
+    },
+    {
+      "Route": "Assets/Finca2.JPG",
+      "AssetFile": "C:\\Users\\VICTOR\\Desktop\\Desarrollo Web\\SoftwareHotel\\SoftwareHotel\\wwwroot\\Assets\\Finca2.JPG",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "20774912"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"41Xl54XtRyXDP1PXVjNlTjSAr+MY6A+95wxh4cikW1Y=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 11 Feb 2025 13:52:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-41Xl54XtRyXDP1PXVjNlTjSAr+MY6A+95wxh4cikW1Y="
+        }
+      ]
+    },
+    {
+      "Route": "Assets/Finca3.ayzjjkk12v.JPG",
+      "AssetFile": "C:\\Users\\VICTOR\\Desktop\\Desarrollo Web\\SoftwareHotel\\SoftwareHotel\\wwwroot\\Assets\\Finca3.JPG",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6559035"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wn9z5Gl2sLZ8tjJdyua7WIvzbpg76fkGwZe/u1ShJTg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 11 Feb 2025 13:53:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ayzjjkk12v"
+        },
+        {
+          "Name": "label",
+          "Value": "Assets/Finca3.JPG"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-wn9z5Gl2sLZ8tjJdyua7WIvzbpg76fkGwZe/u1ShJTg="
+        }
+      ]
+    },
+    {
+      "Route": "Assets/Finca3.JPG",
+      "AssetFile": "C:\\Users\\VICTOR\\Desktop\\Desarrollo Web\\SoftwareHotel\\SoftwareHotel\\wwwroot\\Assets\\Finca3.JPG",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6559035"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wn9z5Gl2sLZ8tjJdyua7WIvzbpg76fkGwZe/u1ShJTg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 11 Feb 2025 13:53:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-wn9z5Gl2sLZ8tjJdyua7WIvzbpg76fkGwZe/u1ShJTg="
+        }
+      ]
+    },
+    {
+      "Route": "Assets/Finca4.JPG",
+      "AssetFile": "C:\\Users\\VICTOR\\Desktop\\Desarrollo Web\\SoftwareHotel\\SoftwareHotel\\wwwroot\\Assets\\Finca4.JPG",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "18677760"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/8iR7GPqqG1p13qfemIYEBxqsOGv1u/FNidOW/I8WME=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 11 Feb 2025 13:52:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-/8iR7GPqqG1p13qfemIYEBxqsOGv1u/FNidOW/I8WME="
+        }
+      ]
+    },
+    {
+      "Route": "Assets/Finca4.rtx3vnwni5.JPG",
+      "AssetFile": "C:\\Users\\VICTOR\\Desktop\\Desarrollo Web\\SoftwareHotel\\SoftwareHotel\\wwwroot\\Assets\\Finca4.JPG",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "18677760"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/8iR7GPqqG1p13qfemIYEBxqsOGv1u/FNidOW/I8WME=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 11 Feb 2025 13:52:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "rtx3vnwni5"
+        },
+        {
+          "Name": "label",
+          "Value": "Assets/Finca4.JPG"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-/8iR7GPqqG1p13qfemIYEBxqsOGv1u/FNidOW/I8WME="
+        }
+      ]
+    },
+    {
+      "Route": "Assets/Jerico1.7lve22akqw.jpg",
+      "AssetFile": "C:\\Users\\VICTOR\\Desktop\\Desarrollo Web\\SoftwareHotel\\SoftwareHotel\\wwwroot\\Assets\\Jerico1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "12712"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lT7vlclwQx6b26NHr2jDoM23asAPPNfApowWHihzvv0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 11 Feb 2025 14:25:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "7lve22akqw"
+        },
+        {
+          "Name": "label",
+          "Value": "Assets/Jerico1.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-lT7vlclwQx6b26NHr2jDoM23asAPPNfApowWHihzvv0="
+        }
+      ]
+    },
+    {
+      "Route": "Assets/Jerico1.jpg",
+      "AssetFile": "C:\\Users\\VICTOR\\Desktop\\Desarrollo Web\\SoftwareHotel\\SoftwareHotel\\wwwroot\\Assets\\Jerico1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "12712"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lT7vlclwQx6b26NHr2jDoM23asAPPNfApowWHihzvv0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 11 Feb 2025 14:25:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-lT7vlclwQx6b26NHr2jDoM23asAPPNfApowWHihzvv0="
+        }
+      ]
+    },
+    {
+      "Route": "Assets/Jerico3.jpg",
+      "AssetFile": "C:\\Users\\VICTOR\\Desktop\\Desarrollo Web\\SoftwareHotel\\SoftwareHotel\\wwwroot\\Assets\\Jerico3.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "12929"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"yzQrEe/8eafCUQraHxSsyo8zFWrce9Gq4jA7E2Mt3k0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 11 Feb 2025 14:35:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-yzQrEe/8eafCUQraHxSsyo8zFWrce9Gq4jA7E2Mt3k0="
+        }
+      ]
+    },
+    {
+      "Route": "Assets/Jerico3.lkx5qivvuf.jpg",
+      "AssetFile": "C:\\Users\\VICTOR\\Desktop\\Desarrollo Web\\SoftwareHotel\\SoftwareHotel\\wwwroot\\Assets\\Jerico3.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "12929"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"yzQrEe/8eafCUQraHxSsyo8zFWrce9Gq4jA7E2Mt3k0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 11 Feb 2025 14:35:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "lkx5qivvuf"
+        },
+        {
+          "Name": "label",
+          "Value": "Assets/Jerico3.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-yzQrEe/8eafCUQraHxSsyo8zFWrce9Gq4jA7E2Mt3k0="
+        }
+      ]
+    },
+    {
+      "Route": "Assets/Jerico4.jpg",
+      "AssetFile": "C:\\Users\\VICTOR\\Desktop\\Desarrollo Web\\SoftwareHotel\\SoftwareHotel\\wwwroot\\Assets\\Jerico4.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9295"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jNMhKeHAtwkiR+fpdf7FfUji54RqyWv7RUwa45++6PI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 11 Feb 2025 14:27:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-jNMhKeHAtwkiR+fpdf7FfUji54RqyWv7RUwa45++6PI="
+        }
+      ]
+    },
+    {
+      "Route": "Assets/Jerico4.o1x5d8hhtr.jpg",
+      "AssetFile": "C:\\Users\\VICTOR\\Desktop\\Desarrollo Web\\SoftwareHotel\\SoftwareHotel\\wwwroot\\Assets\\Jerico4.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9295"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jNMhKeHAtwkiR+fpdf7FfUji54RqyWv7RUwa45++6PI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 11 Feb 2025 14:27:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "o1x5d8hhtr"
+        },
+        {
+          "Name": "label",
+          "Value": "Assets/Jerico4.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-jNMhKeHAtwkiR+fpdf7FfUji54RqyWv7RUwa45++6PI="
+        }
+      ]
+    },
+    {
+      "Route": "Assets/VIDEO-2024-07-02-16-14-12.jpif8ivqmk.mp4",
+      "AssetFile": "C:\\Users\\VICTOR\\Desktop\\Desarrollo Web\\SoftwareHotel\\SoftwareHotel\\wwwroot\\Assets\\VIDEO-2024-07-02-16-14-12.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9654732"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ifP8ylDgUCr8uP3Zg1DeUPMm7dv9aqxFgmhQGyRwBiQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 11 Feb 2025 14:24:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "jpif8ivqmk"
+        },
+        {
+          "Name": "label",
+          "Value": "Assets/VIDEO-2024-07-02-16-14-12.mp4"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ifP8ylDgUCr8uP3Zg1DeUPMm7dv9aqxFgmhQGyRwBiQ="
+        }
+      ]
+    },
+    {
+      "Route": "Assets/VIDEO-2024-07-02-16-14-12.mp4",
+      "AssetFile": "C:\\Users\\VICTOR\\Desktop\\Desarrollo Web\\SoftwareHotel\\SoftwareHotel\\wwwroot\\Assets\\VIDEO-2024-07-02-16-14-12.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9654732"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ifP8ylDgUCr8uP3Zg1DeUPMm7dv9aqxFgmhQGyRwBiQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 11 Feb 2025 14:24:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ifP8ylDgUCr8uP3Zg1DeUPMm7dv9aqxFgmhQGyRwBiQ="
+        }
+      ]
+    },
+    {
+      "Route": "Assets/VideoFinca1.ecu3nkqldp.webm",
+      "AssetFile": "C:\\Users\\VICTOR\\Desktop\\Desarrollo Web\\SoftwareHotel\\SoftwareHotel\\wwwroot\\Assets\\VideoFinca1.webm",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "16778987"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/webm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XuNIGqGwtqMsb4YF3U0ZMgmzU67OEhh6CcZUKIynJ+Q=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 11 Feb 2025 14:19:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ecu3nkqldp"
+        },
+        {
+          "Name": "label",
+          "Value": "Assets/VideoFinca1.webm"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-XuNIGqGwtqMsb4YF3U0ZMgmzU67OEhh6CcZUKIynJ+Q="
+        }
+      ]
+    },
+    {
+      "Route": "Assets/VideoFinca1.webm",
+      "AssetFile": "C:\\Users\\VICTOR\\Desktop\\Desarrollo Web\\SoftwareHotel\\SoftwareHotel\\wwwroot\\Assets\\VideoFinca1.webm",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "16778987"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/webm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XuNIGqGwtqMsb4YF3U0ZMgmzU67OEhh6CcZUKIynJ+Q=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 11 Feb 2025 14:19:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-XuNIGqGwtqMsb4YF3U0ZMgmzU67OEhh6CcZUKIynJ+Q="
+        }
+      ]
+    },
     {
       "Route": "Assets/WhatsApp Image 2024-07-04 at 12.42.44 PM.jpeg",
       "AssetFile": "C:\\Users\\VICTOR\\Desktop\\Desarrollo Web\\SoftwareHotel\\SoftwareHotel\\wwwroot\\Assets\\WhatsApp Image 2024-07-04 at 12.42.44 PM.jpeg",

@@ -1,0 +1,38 @@
+﻿@page
+@model SoftwareHotel.Pages.Location.LocationModel
+@{
+    ViewData["Title"] = "Cómo Llegar";
+}
+
+<div class="container py-5">
+    <header class="text-center mb-5">
+        <h1 class="display-5 text-primary fw-bold">Cómo Llegar</h1>
+        <p class="lead text-muted">Encuentra la mejor ruta para llegar a Kolorina Hotel Campestre</p>
+    </header>
+
+    <section class="text-center mb-5">
+        <h2 class="text-secondary">Ubicación</h2>
+        <p class="fs-5 text-muted">Nos encontramos en un entorno natural en Jericó, Antioquia.</p>
+        <p class="fw-bold">Dirección: Vereda X, Kilómetro Y, Jericó, Antioquia, Colombia</p>
+    </section>
+
+    <!-- Google Maps -->
+    <section class="text-center mb-5">
+        <h2 class="text-secondary">Mapa Interactivo</h2>
+        <div class="ratio ratio-16x9">
+            <iframe id="mapa" class="rounded shadow"
+                    src="https://www.google.com/maps/embed/v1/place?key=TU_API_KEY&q=Kolorina+Hotel+Campestre,Jericó+Antioquia"
+                    allowfullscreen>
+            </iframe>
+        </div>
+    </section>
+
+    <!-- Botón de Navegación a Google Maps -->
+    <section class="text-center mt-4">
+        <a href="https://www.google.com/maps/dir/?api=1&destination=Kolorina+Hotel+Campestre,Jericó+Antioquia"
+           target="_blank"
+           class="btn btn-lg btn-primary shadow-sm">
+            Ir con Google Maps
+        </a>
+    </section>
+</div>
