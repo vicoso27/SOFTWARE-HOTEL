@@ -1,10 +1,12 @@
 using Microsoft.EntityFrameworkCore;
 using SoftwareHotel.Data;
+using SoftwareHotel.Repositories;
+using SoftwareHotel.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
-
-// Add services to the container.
+// Agregar servicios al contenedor
+builder.Services.AddScoped<IRoomRepository, RoomRepository>();
 builder.Services.AddRazorPages();
 builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseNpgsql(builder.Configuration.GetConnectionString("KolorinaDbConnection"))
@@ -12,23 +14,19 @@ builder.Services.AddDbContext<AppDbContext>(options =>
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
+// Configurar el pipeline de middleware
 if (!app.Environment.IsDevelopment())
 {
     app.UseExceptionHandler("/Error");
-    // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
     app.UseHsts();
 }
 
 app.UseHttpsRedirection();
+app.UseStaticFiles();
 
 app.UseRouting();
-
 app.UseAuthorization();
 
-app.UseStaticFiles();
-app.MapStaticAssets();
-app.MapRazorPages()
-   .WithStaticAssets();
+app.MapRazorPages();
 
 app.Run();

@@ -1,13 +1,15 @@
 ﻿using SoftwareHotel.Models;
+using System.Collections.Generic;
+using System.Threading.Tasks;
 
 namespace SoftwareHotel.Repositories
 {
     public interface IBookingRepository
     {
-        Task<IEnumerable<Booking>> GetAllBookingsAsync();  
-        Task<Booking?> GetBookingAsync(int id);
-        Task CreateBookingAsync(Booking booking);
-        Task UpdateBookingAsync(Booking booking);
-        Task DeleteBookingAsync(int id);
+        Task<IEnumerable<Booking>> GetBookingsAsync();
+        Task<Booking?> GetBookingByIdAsync(int id);
+        Task AddBookingAsync(Booking booking);
+        Task<bool> UpdateBookingAsync(Booking booking);
+        Task<bool> DeleteBookingAsync(int id);
     }
 }

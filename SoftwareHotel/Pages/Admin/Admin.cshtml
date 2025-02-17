@@ -10,6 +10,55 @@
         <p class="lead text-muted">Gestiona la disponibilidad de las habitaciones</p>
     </header>
 
+    <!-- Lista de Habitaciones -->
+    <section class="mb-5">
+        <h2 class="text-center text-secondary mb-4">Lista de Habitaciones</h2>
+        @if (Model.Habitaciones != null && Model.Habitaciones.Any())
+        {
+            <div class="table-responsive">
+                <table class="table table-hover">
+                    <thead class="table-light">
+                        <tr>
+                            <th>Número</th>
+                            <th>Tipo</th>
+                            <th>Estado</th>
+                            <th>Acciones</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @{
+                            foreach (var room in Model.Habitaciones.OrderBy(r => r.Numero))
+                            {
+                                <tr>
+                                    <td>@room.Numero</td>
+                                    <td>@room.Tipo</td>
+                                    <td>
+                                        <span class="badge bg-@(room.Disponible ? "success" : "danger")">
+                                            @(room.Disponible ? "Disponible" : "Ocupada")
+                                        </span>
+                                    </td>
+                                    <td>
+                                        <div class="btn-group btn-group-sm">
+                                            <button class="btn btn-outline-primary">Editar</button>
+                                            <button class="btn btn-outline-danger">Eliminar</button>
+                                        </div>
+                                    </td>
+                                </tr>
+                            }
+                        }
+                    </tbody>
+                </table>
+            </div>
+        }
+        else
+        {
+            <div class="alert alert-info text-center">
+                <i class="fas fa-info-circle me-2"></i>
+                No hay habitaciones disponibles en este momento.
+            </div>
+        }
+    </section>
+
     <!-- Calendario -->
     <section class="mb-5">
         <h2 class="text-center text-secondary mb-4">Calendario de Disponibilidad</h2>
@@ -19,17 +68,25 @@
     <!-- Botones de Administración -->
     <section class="text-center mt-4">
         <h3 class="text-secondary">Acciones</h3>
-        <button class="btn btn-danger shadow-sm" onclick="blockRoom('maintenance')">Cerrar por Mantenimiento</button>
-        <button class="btn btn-warning shadow-sm" onclick="blockRoom('cleaning')">Cerrar por Limpieza</button>
-        <button class="btn btn-success shadow-sm" onclick="markAvailable()">Marcar como Disponible</button>
+        <button class="btn btn-danger shadow-sm" onclick="blockRoom('maintenance')">
+            <i class="fas fa-tools me-2"></i>Cerrar por Mantenimiento
+        </button>
+        <button class="btn btn-warning shadow-sm" onclick="blockRoom('cleaning')">
+            <i class="fas fa-broom me-2"></i>Cerrar por Limpieza
+        </button>
+        <button class="btn btn-success shadow-sm" onclick="markAvailable()">
+            <i class="fas fa-check-circle me-2"></i>Marcar como Disponible
+        </button>
     </section>
 </div>
 
 <!-- Estilos para FullCalendar -->
 <link href="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/5.11.3/main.min.css" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/5.11.3/main.min.js"></script>
 
 <script>
+
     document.addEventListener('DOMContentLoaded', function () {
         var calendarEl = document.getElementById('calendar');
         var calendar = new FullCalendar.Calendar(calendarEl, {

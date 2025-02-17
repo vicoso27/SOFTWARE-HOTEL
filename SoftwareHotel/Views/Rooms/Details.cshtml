@@ -1,0 +1,40 @@
+﻿@model IEnumerable<SoftwareHotel.Models.Habitacion>
+
+@{
+    ViewData["Title"] = "Detalles de Habitación";
+}
+
+<h1>Detalles de las Habitaciones</h1>
+
+@foreach (var habitacion in Model)
+{
+    <div>
+        <h4>Habitación: @habitacion.Numero</h4>
+        <hr />
+        <dl class="row">
+            <dt class="col-sm-2">Número</dt>
+            <dd class="col-sm-10">@habitacion.Numero</dd>
+
+            <dt class="col-sm-2">Tipo</dt>
+            <dd class="col-sm-10">@habitacion.Tipo</dd>
+
+            <dt class="col-sm-2">Capacidad</dt>
+            <dd class="col-sm-10">@habitacion.Capacidad</dd>
+
+            <dt class="col-sm-2">Precio</dt>
+            <dd class="col-sm-10">@habitacion.Precio</dd>
+
+            <dt class="col-sm-2">Disponible</dt>
+            <dd class="col-sm-10">
+                <span class="badge bg-@(habitacion.Disponible ? "success" : "danger")">
+                    @(habitacion.Disponible ? "Disponible" : "Ocupada")
+                </span>
+            </dd>
+        </dl>
+    </div>
+    <div>
+        <a asp-action="Edit" asp-route-id="@habitacion.Id">Editar</a> |
+        <a asp-action="Index">Volver a la lista</a>
+    </div>
+    <hr />
+}

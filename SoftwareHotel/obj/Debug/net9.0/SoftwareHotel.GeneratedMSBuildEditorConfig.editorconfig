@@ -32,6 +32,10 @@ build_property.EnableCodeStyleSeverity =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWJhdXR1c1xBYmF1dHVzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/VICTOR/Desktop/Desarrollo Web/SoftwareHotel/SoftwareHotel/Pages/Account/Account.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWNjb3VudFxBY2NvdW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/VICTOR/Desktop/Desarrollo Web/SoftwareHotel/SoftwareHotel/Pages/Admin/Admin.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cQWRtaW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -66,6 +70,30 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/VICTOR/Desktop/Desarrollo Web/SoftwareHotel/SoftwareHotel/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/VICTOR/Desktop/Desarrollo Web/SoftwareHotel/SoftwareHotel/Views/Rooms/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9vbXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/VICTOR/Desktop/Desarrollo Web/SoftwareHotel/SoftwareHotel/Views/Rooms/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9vbXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/VICTOR/Desktop/Desarrollo Web/SoftwareHotel/SoftwareHotel/Views/Rooms/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9vbXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/VICTOR/Desktop/Desarrollo Web/SoftwareHotel/SoftwareHotel/Views/Rooms/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9vbXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/VICTOR/Desktop/Desarrollo Web/SoftwareHotel/SoftwareHotel/Views/Rooms/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9vbXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/VICTOR/Desktop/Desarrollo Web/SoftwareHotel/SoftwareHotel/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/VICTOR/Desktop/Desarrollo Web/SoftwareHotel/SoftwareHotel/Pages/Shared/_Layout.cshtml]

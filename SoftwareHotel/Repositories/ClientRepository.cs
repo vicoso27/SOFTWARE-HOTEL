@@ -1,6 +1,9 @@
 ﻿using SoftwareHotel.Data;
 using SoftwareHotel.Models;
 using Microsoft.EntityFrameworkCore;
+using System.Collections.Generic;
+using System.Collections.Generic;
+using System.Threading.Tasks;
 
 namespace SoftwareHotel.Repositories
 {
@@ -13,45 +16,44 @@ namespace SoftwareHotel.Repositories
             _context = context;
         }
 
-        public async Task<IEnumerable<Client>> GetAllClientsAsync()
+        public async Task<IEnumerable<Client>> GetClientsAsync()
         {
             return await _context.Clientes.ToListAsync();
         }
 
-        public async Task<Client?> GetClientAsync(int id)
+        public async Task<Client?> GetClientByIdAsync(int id)
         {
             return await _context.Clientes.FirstOrDefaultAsync(c => c.Id == id);
         }
 
-        public async Task CreateClientAsync(Client client)
+        public async Task AddClientAsync(Client client)
         {
             _context.Clientes.Add(client);
             await _context.SaveChangesAsync();
         }
 
-        public async Task UpdateClientAsync(Client client)
+        public async Task<bool> UpdateClientAsync(Client client)
         {
             var existingClient = await _context.Clientes.FindAsync(client.Id);
+            if (existingClient == null) return false;
 
-            if (existingClient != null)
-            {
-                existingClient.Nombre = client.Nombre;
-                existingClient.Email = client.Email;
-                existingClient.Telefono = client.Telefono;
-                existingClient.DocumentoIdentidad = client.DocumentoIdentidad;
+            existingClient.Nombre = client.Nombre;
+            existingClient.Email = client.Email;
+            existingClient.Telefono = client.Telefono;
+            existingClient.DocumentoIdentidad = client.DocumentoIdentidad;
 
-                await _context.SaveChangesAsync();
-            }
+            await _context.SaveChangesAsync();
+            return true;
         }
 
-        public async Task DeleteClientAsync(int id)
+        public async Task<bool> DeleteClientAsync(int id)
         {
             var client = await _context.Clientes.FindAsync(id);
-            if (client != null)
-            {
-                _context.Clientes.Remove(client);
-                await _context.SaveChangesAsync();
-            }
+            if (client == null) return false;
+
+            _context.Clientes.Remove(client);
+            await _context.SaveChangesAsync();
+            return true;
         }
     }
 }
